@@ -117,7 +117,7 @@ button {
   aspect-ratio: 1;
   top: -40px;
   right: -20px;
-  z-index: 10;
+  z-index: 0;
   clip-path: polygon(
     100% 50%,
     78.98% 57.76%,
@@ -152,4 +152,545 @@ button {
   text-transform: uppercase;
   text-align: center;
   padding: 10px 20px;
+}
+
+.cssArt {
+  width: 65%;
+  height: 60vh;
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: relative;
+}
+.cssArt .sun {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.sun {
+  width: 125px; /* adjust to control the size */
+  aspect-ratio: 1;
+  background-color: yellow;
+  z-index: 5;
+  clip-path: polygon(
+    100% 50%,
+    79.84% 53.14%,
+    98.91% 60.4%,
+    78.53% 59.27%,
+    95.68% 70.34%,
+    75.98% 65%,
+    90.45% 79.39%,
+    72.29% 70.07%,
+    83.46% 87.16%,
+    67.63% 74.27%,
+    75% 93.3%,
+    62.2% 77.41%,
+    65.45% 97.55%,
+    56.24% 79.34%,
+    55.23% 99.73%,
+    50% 80%,
+    44.77% 99.73%,
+    43.76% 79.34%,
+    34.55% 97.55%,
+    37.8% 77.41%,
+    25% 93.3%,
+    32.37% 74.27%,
+    16.54% 87.16%,
+    27.71% 70.07%,
+    9.55% 79.39%,
+    24.02% 65%,
+    4.32% 70.34%,
+    21.47% 59.27%,
+    1.09% 60.4%,
+    20.16% 53.14%,
+    0% 50%,
+    20.16% 46.86%,
+    1.09% 39.6%,
+    21.47% 40.73%,
+    4.32% 29.66%,
+    24.02% 35%,
+    9.55% 20.61%,
+    27.71% 29.93%,
+    16.54% 12.84%,
+    32.37% 25.73%,
+    25% 6.7%,
+    37.8% 22.59%,
+    34.55% 2.45%,
+    43.76% 20.66%,
+    44.77% 0.27%,
+    50% 20%,
+    55.23% 0.27%,
+    56.24% 20.66%,
+    65.45% 2.45%,
+    62.2% 22.59%,
+    75% 6.7%,
+    67.63% 25.73%,
+    83.46% 12.84%,
+    72.29% 29.93%,
+    90.45% 20.61%,
+    75.98% 35%,
+    95.68% 29.66%,
+    78.53% 40.73%,
+    98.91% 39.6%,
+    79.84% 46.86%
+  );
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+/* for shapes  https://css-shape.com/ */
+.treeLg {
+  width: 180px;
+  aspect-ratio: 1 / 1.85;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: linear-gradient(
+    0deg,
+    #0f4d0f 0%,
+    #008000 10%,
+    #0f4d0f 10%,
+    #008000 20%,
+    #0f4d0f 20%,
+    #008000 30%,
+    #0f4d0f 30%,
+    #008000 40%,
+    #0f4d0f 40%,
+    #008000 50%,
+    #0f4d0f 50%,
+    #008000 60%,
+    #0f4d0f 60%,
+    #008000 70%,
+    #0f4d0f 70%,
+    #008000 80%,
+    #0f4d0f 80%,
+    #008000 90%,
+    #0f4d0f 90%,
+    #008000 100%
+  );
+  z-index: 5;
+  position: absolute;
+  left: 00px;
+  bottom: 0;
+}
+.treeMd {
+  width: 150px;
+  aspect-ratio: 1 / 1.3;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: linear-gradient(
+    0deg,
+    #0f4d0f 0%,
+    #008000 10%,
+    #0f4d0f 10%,
+    #008000 20%,
+    #0f4d0f 20%,
+    #008000 30%,
+    #0f4d0f 30%,
+    #008000 40%,
+    #0f4d0f 40%,
+    #008000 50%,
+    #0f4d0f 50%,
+    #008000 60%,
+    #0f4d0f 60%,
+    #008000 70%,
+    #0f4d0f 70%,
+    #008000 80%,
+    #0f4d0f 80%,
+    #008000 90%,
+    #0f4d0f 90%,
+    #008000 100%
+  );
+  z-index: 4;
+  position: absolute;
+  left: 150px;
+  bottom: 0;
+}
+.treeSm {
+  width: 100px;
+  aspect-ratio: 1 / 1.1;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: linear-gradient(
+    0deg,
+    #0f4d0f 0%,
+    #008000 10%,
+    #0f4d0f 10%,
+    #008000 20%,
+    #0f4d0f 20%,
+    #008000 30%,
+    #0f4d0f 30%,
+    #008000 40%,
+    #0f4d0f 40%,
+    #008000 50%,
+    #0f4d0f 50%,
+    #008000 60%,
+    #0f4d0f 60%,
+    #008000 70%,
+    #0f4d0f 70%,
+    #008000 80%,
+    #0f4d0f 80%,
+    #008000 90%,
+    #0f4d0f 90%,
+    #008000 100%
+  );
+  z-index: 7;
+  position: absolute;
+  left: 120px;
+  bottom: 0;
+}
+/* HTML: <div class="scalloped-box"></div> */
+.wave {
+  --mask: radial-gradient(20.69px at 50% 29.25px, #000 99%, #0000 101%)
+      calc(50% - 30px) 0/60px 100%,
+    radial-gradient(20.69px at 50% -14.25px, #0000 99%, #000 101%) 50% 15px/60px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  background-color: white;
+}
+.snow {
+  grid-column: 1/5;
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  z-index: 12;
+}
+.cloudSm {
+  height: 180px; /* control the size */
+  aspect-ratio: 1.8;
+  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+  mask: var(--g) 100% 100%/30% 60%, var(--g) 70% 0/50% 100%,
+    var(--g) 0 100%/36% 68%, var(--g) 27% 18%/26% 40%,
+    linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+  background: #fff;
+  scale: 0.2;
+}
+.skyItems > div:nth-child(1) {
+  position: absolute;
+  top: 5px;
+  right: 240px;
+}
+.skyItems > div:nth-child(2) {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+.skyItems > div:nth-of-type(3) {
+  position: absolute;
+  top: 75px;
+  left: 80px;
+}
+.skyItems > div:nth-child(4) {
+  position: absolute;
+  top: -50px;
+  left: 150px;
+}
+.skyItems > div:nth-child(5) {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+.skyItems > div:nth-of-type(6) {
+  position: absolute;
+  top: 80px;
+  right: 175px;
+}
+.skyItems > div:nth-child(7) {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+.skyItems > div:nth-child(8) {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+.skyItems > div:nth-of-type(9) {
+  position: absolute;
+  top: 10px;
+  right: 500px;
+}
+.cloudMd {
+  height: 180px; /* control the size */
+  aspect-ratio: 1.8;
+  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+  mask: var(--g) 100% 100%/30% 60%, var(--g) 70% 0/50% 100%,
+    var(--g) 0 100%/36% 68%, var(--g) 27% 18%/26% 40%,
+    linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+  background: #ddd;
+  scale: 0.4;
+}
+
+.cloudLg {
+  height: 180px; /* control the size */
+  aspect-ratio: 1.8;
+  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+  mask: var(--g) 100% 100%/30% 60%, var(--g) 70% 0/50% 100%,
+    var(--g) 0 100%/36% 68%, var(--g) 27% 18%/26% 40%,
+    linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+  background: #888;
+  scale: 0.7;
+}
+
+.tree:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+}
+.tree:nth-of-type(2) {
+  position: absolute !important;
+  left: 20%;
+  bottom: 0;
+  z-index: 1;
+}
+.tree:nth-of-type(3) {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  z-index: 6;
+}
+.forest1 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+  display: flex;
+  align-content: baseline;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.forest2 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  display: flex;
+  align-content: flex-end;
+  position: relative;
+  flex-direction: row;
+}
+.skyItems {
+  grid-row: 1/3;
+  grid-column: 1/5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+}
+.background {
+  background-color: skyblue;
+}
+.flakesOne {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  position: relative;
+}
+.flakesTwo {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  position: relative;
+}
+.flakesThree {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  position: relative;
+}
+.flakesFour {
+  grid-column: 4/5;
+  grid-row: 1/4;
+  position: relative;
+}
+.snowFlakeSm {
+  width: 25px;
+  aspect-ratio: 1;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+  z-index: 200;
+}
+.snowFlakeMd {
+  width: 25px;
+  aspect-ratio: 1;
+  padding: 10px;
+  font-size: 1.35rem;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 200;
+}
+.snowFlakeLg {
+  width: 25px;
+  aspect-ratio: 1;
+  padding: 10px;
+  font-size: 1.75rem;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 200;
+}
+.flakesOne > div:nth-child(1),
+.flakesTwo > div:nth-child(1),
+.flakesThree > div:nth-child(1),
+.flakesFour > div:nth-child(1) {
+  top: 20px;
+  left: 50px;
+}
+.flakesOne > div:nth-child(2),
+.flakesTwo > div:nth-child(2),
+.flakesThree > div:nth-child(2),
+.flakesFour > div:nth-child(2) {
+  top: 100px;
+  left: 100px;
+}
+.flakesOne > div:nth-child(3),
+.flakesTwo > div:nth-child(3),
+.flakesThree > div:nth-child(3),
+.flakesFour > div:nth-child(3) {
+  top: 300px;
+  left: 200px;
+}
+.flakesOne > div:nth-child(4),
+.flakesTwo > div:nth-child(4),
+.flakesThree > div:nth-child(4),
+.flakesFour > div:nth-child(4) {
+  top: 40px;
+  left: 10px;
+}
+.flakesOne > div:nth-child(5),
+.flakesTwo > div:nth-child(5),
+.flakesThree > div:nth-child(5),
+.flakesFour > div:nth-child(5) {
+  top: 250px;
+  left: 35px;
+}
+.flakesOne
+  > div:nth-child(6)
+  .flakesTwo
+  > div:nth-child(6)
+  .flakesThree
+  > div:nth-child(6)
+  .flakesFour
+  > div:nth-child(6) {
+  top: 200px;
+  left: 150px;
+}
+.flakesOne > div:nth-child(7),
+.flakesTwo > div:nth-child(7),
+.flakesThree > div:nth-child(7),
+.flakesFour > div:nth-child(7) {
+  top: 175px;
+  left: 50px;
+}
+.flakesOne > div:nth-child(8),
+.flakesTwo > div:nth-child(8),
+.flakesThree > div:nth-child(8),
+.flakesFour > div:nth-child(8) {
+  top: 80px;
+  left: 175px;
+}
+.flakesOne > div:nth-child(9),
+.flakesTwo > div:nth-child(9),
+.flakesThree > div:nth-child(9),
+.flakesFour > div:nth-child(9) {
+  top: 50px;
+  left: 900px;
+}
+.flakesOne > div:nth-child(10),
+.flakesTwo > div:nth-child(10),
+.flakesThree > div:nth-child(10),
+.flakesFour > div:nth-child(10) {
+  top: 130px;
+  left: 30px;
+}
+.flakesOne > div:nth-child(11),
+.flakesTwo > div:nth-child(11),
+.flakesThree > div:nth-child(11),
+.flakesFour > div:nth-child(11) {
+  top: 400px;
+  left: 60px;
+}
+.flakesOne > div:nth-child(12),
+.flakesTwo > div:nth-child(12),
+.flakesThree > div:nth-child(12),
+.flakesFour > div:nth-child(12) {
+  top: 450px;
+  left: 125px;
+}
+.flakesOne > div:nth-child(13),
+.flakesTwo > div:nth-child(13),
+.flakesThree > div:nth-child(13),
+.flakesFour > div:nth-child(13) {
+  top: 425px;
+  left: 200px;
+}
+.people {
+  grid-row: 3/4;
+  grid-column: 1/5;
+  position: relative;
+}
+.handsUp {
+  background-image: url(../images/handsup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 200px;
+}
+.look {
+  background-image: url(../images/look.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 200px;
+}
+.jump {
+  background-image: url(../images/jump.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 200px;
+}
+.people > div:nth-child(1) {
+  left: 250px;
+  bottom: 0px;
+  z-index: 11;
+  position: absolute;
+}
+.people > div:nth-child(2) {
+  left: 550px;
+  bottom: 100px;
+  z-index: 11;
+  position: absolute;
+}
+.people > div:nth-child(3) {
+  left: 650px;
+  bottom: 0px;
+  z-index: 11;
+  position: absolute;
+}
+.people > div:nth-child(4) {
+  left: 850px;
+  bottom: 0px;
+  z-index: 11;
+  position: absolute;
+  transform: scaleX(-1);
+}
+.people > div:nth-child(5) {
+  left: 400px;
+  bottom: 50px;
+  z-index: 11;
+  position: absolute;
+  transform: scaleX(-1);
+}
+.people > div:nth-child(6) {
+  left: 700px;
+  bottom: 0px;
+  z-index: 11;
+  position: absolute;
+  transform: scaleX(-1);
 }
