@@ -405,16 +405,20 @@ button {
   grid-column: 2/3;
   grid-row: 1/4;
   position: relative;
+  transform: scaleY(-1);
 }
 .flakesThree {
   grid-column: 3/4;
   grid-row: 1/4;
   position: relative;
+  transform: scaleX(-1);
+  transform: scaleY(-1);
 }
 .flakesFour {
   grid-column: 4/5;
   grid-row: 1/4;
   position: relative;
+  transform: scaleX(-1);
 }
 .snowFlakeSm {
   width: 25px;
